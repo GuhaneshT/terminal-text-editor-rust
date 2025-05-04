@@ -1,0 +1,47 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Generated files
+*.o
+*.so
+*.rlib
+*.dll
+*.dylib
+*.exe
+*.pdb
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.temp
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# macOS-specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Documentation build artifacts
+/doc/
+
+# Test coverage files
+*.profraw
+*.profdata
+/coverage/
+
+# Rust analyzer artifacts
+/rust-analyzer/
+
+# Miscellaneous
+*.bak
+notes.txt
+todo.txt
